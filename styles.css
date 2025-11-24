@@ -1,0 +1,45 @@
+body { 
+    font-family: sans-serif; 
+    padding: 0; 
+    margin: 0; 
+}
+
+/* regler for container */
+.container {
+  display: flex;
+  gap: 1rem;
+  margin: 4rem 3%;
+  padding: 1rem 1rem;
+  border: 4px solid #d3d3d3;
+  font-size: 36px;
+}
+
+.container span { 
+    background: #90caf9; 
+    padding: 4rem; 
+    border-radius: 4px; 
+}
+
+#boxA {
+    background-color: orange;
+}
+
+#boxB {
+    background-color: limegreen;
+}
+
+#boxC {
+    background-color: lightskyblue;
+}
+
+/* klasse med justify-content-verdi */
+.boxes-layout   { justify-content: flex-start; }
+
+/* 
+.start   { justify-content: flex-start; }
+.end     { justify-content: flex-end; }
+.center  { justify-content: center; }
+.between { justify-content: space-between; }
+.around  { justify-content: space-around; }
+.evenly  { justify-content: space-evenly; } 
+*/
