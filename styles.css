@@ -33,7 +33,7 @@ body {
 }
 
 /* klasse med justify-content-verdi */
-.boxes-layout   { justify-content: flex-end; }
+.boxes-layout   { justify-content: flex-start; }
 
 /* 
 .start   { justify-content: flex-start; }
